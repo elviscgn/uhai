@@ -1,0 +1,1983 @@
+{
+  "schema": 1,
+  "task": "single visible food acquisition",
+  "engine": "uhai-core-0.1.0",
+  "steps": 360,
+  "population": 48,
+  "generations": 80,
+  "training_seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016
+  ],
+  "held_out_seeds": [
+    50001,
+    50002,
+    50003,
+    50004,
+    50005,
+    50006,
+    50007,
+    50008,
+    50009,
+    50010,
+    50011,
+    50012,
+    50013,
+    50014,
+    50015,
+    50016,
+    50017,
+    50018,
+    50019,
+    50020,
+    50021,
+    50022,
+    50023,
+    50024,
+    50025,
+    50026,
+    50027,
+    50028,
+    50029,
+    50030,
+    50031,
+    50032,
+    50033,
+    50034,
+    50035,
+    50036,
+    50037,
+    50038,
+    50039,
+    50040,
+    50041,
+    50042,
+    50043,
+    50044,
+    50045,
+    50046,
+    50047,
+    50048,
+    50049,
+    50050,
+    50051,
+    50052,
+    50053,
+    50054,
+    50055,
+    50056,
+    50057,
+    50058,
+    50059,
+    50060,
+    50061,
+    50062,
+    50063,
+    50064
+  ],
+  "runs": [
+    {
+      "seed": 7,
+      "before": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_mean": 0.34375,
+      "after_mean": 1.0,
+      "delta": 0.65625,
+      "curve": [
+        {
+          "generation": 0,
+          "mean_training_fitness": 0.3933072215601972,
+          "best_training_fitness": 2.011430369806476,
+          "champion_training_success": 0.375
+        },
+        {
+          "generation": 1,
+          "mean_training_fitness": 0.5640670697969483,
+          "best_training_fitness": 2.011430369806476,
+          "champion_training_success": 0.375
+        },
+        {
+          "generation": 2,
+          "mean_training_fitness": 0.81588399516833,
+          "best_training_fitness": 2.5577673790976405,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 3,
+          "mean_training_fitness": 0.8131475327770469,
+          "best_training_fitness": 2.5577673790976405,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 4,
+          "mean_training_fitness": 0.9381396724322713,
+          "best_training_fitness": 2.6490834495052695,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 5,
+          "mean_training_fitness": 1.1136833263119368,
+          "best_training_fitness": 2.6490834495052695,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 6,
+          "mean_training_fitness": 1.0403160462284784,
+          "best_training_fitness": 2.6493561363313347,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 7,
+          "mean_training_fitness": 1.0350971114574652,
+          "best_training_fitness": 2.6493561363313347,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 8,
+          "mean_training_fitness": 1.1340478340792401,
+          "best_training_fitness": 3.555561729124747,
+          "champion_training_success": 0.6875
+        },
+        {
+          "generation": 9,
+          "mean_training_fitness": 0.9226089344603375,
+          "best_training_fitness": 3.555561729124747,
+          "champion_training_success": 0.6875
+        },
+        {
+          "generation": 10,
+          "mean_training_fitness": 1.0099869799835233,
+          "best_training_fitness": 3.555561729124747,
+          "champion_training_success": 0.6875
+        },
+        {
+          "generation": 11,
+          "mean_training_fitness": 1.0281214027992671,
+          "best_training_fitness": 3.555561729124747,
+          "champion_training_success": 0.6875
+        },
+        {
+          "generation": 12,
+          "mean_training_fitness": 1.1786611566658773,
+          "best_training_fitness": 3.555561729124747,
+          "champion_training_success": 0.6875
+        },
+        {
+          "generation": 13,
+          "mean_training_fitness": 1.3441669003561099,
+          "best_training_fitness": 3.6097563284856733,
+          "champion_training_success": 0.6875
+        },
+        {
+          "generation": 14,
+          "mean_training_fitness": 1.3319539935093492,
+          "best_training_fitness": 3.6097563284856733,
+          "champion_training_success": 0.6875
+        },
+        {
+          "generation": 15,
+          "mean_training_fitness": 1.4217399390713676,
+          "best_training_fitness": 3.6097563284856733,
+          "champion_training_success": 0.6875
+        },
+        {
+          "generation": 16,
+          "mean_training_fitness": 1.4990691133988154,
+          "best_training_fitness": 3.6097563284856733,
+          "champion_training_success": 0.6875
+        },
+        {
+          "generation": 17,
+          "mean_training_fitness": 1.6821397687196533,
+          "best_training_fitness": 4.2355206499341875,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 18,
+          "mean_training_fitness": 1.5765000627347945,
+          "best_training_fitness": 4.2355206499341875,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 19,
+          "mean_training_fitness": 1.6716494857927653,
+          "best_training_fitness": 4.2355206499341875,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 20,
+          "mean_training_fitness": 1.5333403440280715,
+          "best_training_fitness": 4.2355206499341875,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 21,
+          "mean_training_fitness": 1.711163469742606,
+          "best_training_fitness": 4.2355206499341875,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 22,
+          "mean_training_fitness": 1.7517223656690437,
+          "best_training_fitness": 4.2355206499341875,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 23,
+          "mean_training_fitness": 2.0064930621208155,
+          "best_training_fitness": 4.8171062814071774,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 24,
+          "mean_training_fitness": 1.84638970180463,
+          "best_training_fitness": 4.8171062814071774,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 25,
+          "mean_training_fitness": 1.6495074843701332,
+          "best_training_fitness": 4.8171062814071774,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 26,
+          "mean_training_fitness": 1.8595665579567584,
+          "best_training_fitness": 4.8171062814071774,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 27,
+          "mean_training_fitness": 1.8070634456940222,
+          "best_training_fitness": 4.8171062814071774,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 28,
+          "mean_training_fitness": 1.8537157437906064,
+          "best_training_fitness": 4.8171062814071774,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 29,
+          "mean_training_fitness": 1.9155390757044017,
+          "best_training_fitness": 4.8171062814071774,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 30,
+          "mean_training_fitness": 1.8576198583826908,
+          "best_training_fitness": 4.849041901528835,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 31,
+          "mean_training_fitness": 1.9235674923866857,
+          "best_training_fitness": 4.849041901528835,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 32,
+          "mean_training_fitness": 1.787468102564162,
+          "best_training_fitness": 4.849041901528835,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 33,
+          "mean_training_fitness": 1.9854781175161709,
+          "best_training_fitness": 4.849041901528835,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 34,
+          "mean_training_fitness": 1.945023859803257,
+          "best_training_fitness": 4.849041901528835,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 35,
+          "mean_training_fitness": 2.210624436628526,
+          "best_training_fitness": 4.849041901528835,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 36,
+          "mean_training_fitness": 2.0463331578846087,
+          "best_training_fitness": 4.849041901528835,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 37,
+          "mean_training_fitness": 1.9475932665928515,
+          "best_training_fitness": 4.849041901528835,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 38,
+          "mean_training_fitness": 2.227566815292145,
+          "best_training_fitness": 4.849041901528835,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 39,
+          "mean_training_fitness": 2.3197835632724186,
+          "best_training_fitness": 4.856554824858904,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 40,
+          "mean_training_fitness": 2.296764445495228,
+          "best_training_fitness": 4.856554824858904,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 41,
+          "mean_training_fitness": 2.181909919932423,
+          "best_training_fitness": 4.856554824858904,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 42,
+          "mean_training_fitness": 1.807733163081366,
+          "best_training_fitness": 4.856554824858904,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 43,
+          "mean_training_fitness": 2.1221098545110237,
+          "best_training_fitness": 4.856554824858904,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 44,
+          "mean_training_fitness": 2.130311495706792,
+          "best_training_fitness": 4.856554824858904,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 45,
+          "mean_training_fitness": 2.2748214423582644,
+          "best_training_fitness": 4.856554824858904,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 46,
+          "mean_training_fitness": 1.8819958309778713,
+          "best_training_fitness": 4.856554824858904,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 47,
+          "mean_training_fitness": 2.115021244159076,
+          "best_training_fitness": 4.856554824858904,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 48,
+          "mean_training_fitness": 1.6137562738276756,
+          "best_training_fitness": 4.906960476422682,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 49,
+          "mean_training_fitness": 1.6751213749759966,
+          "best_training_fitness": 4.906960476422682,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 50,
+          "mean_training_fitness": 1.9040324185064794,
+          "best_training_fitness": 4.906960476422682,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 51,
+          "mean_training_fitness": 1.8872532009817935,
+          "best_training_fitness": 4.917967892251909,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 52,
+          "mean_training_fitness": 1.9963624194347744,
+          "best_training_fitness": 4.917967892251909,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 53,
+          "mean_training_fitness": 2.061301196021437,
+          "best_training_fitness": 4.917967892251909,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 54,
+          "mean_training_fitness": 1.7921122493858093,
+          "best_training_fitness": 4.917967892251909,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 55,
+          "mean_training_fitness": 1.8375677578225502,
+          "best_training_fitness": 4.917967892251909,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 56,
+          "mean_training_fitness": 1.7294580849548993,
+          "best_training_fitness": 4.917967892251909,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 57,
+          "mean_training_fitness": 2.487359506268149,
+          "best_training_fitness": 4.917967892251909,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 58,
+          "mean_training_fitness": 2.475896597899464,
+          "best_training_fitness": 4.925366895273328,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 59,
+          "mean_training_fitness": 2.6525634041498356,
+          "best_training_fitness": 4.9280379097908735,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 60,
+          "mean_training_fitness": 2.607102595106577,
+          "best_training_fitness": 5.228630572557449,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 61,
+          "mean_training_fitness": 2.467116835386681,
+          "best_training_fitness": 5.228630572557449,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 62,
+          "mean_training_fitness": 2.531879410019883,
+          "best_training_fitness": 5.228630572557449,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 63,
+          "mean_training_fitness": 2.338996912860523,
+          "best_training_fitness": 5.228630572557449,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 64,
+          "mean_training_fitness": 2.4183658845600653,
+          "best_training_fitness": 5.228630572557449,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 65,
+          "mean_training_fitness": 2.1864207920154968,
+          "best_training_fitness": 5.228630572557449,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 66,
+          "mean_training_fitness": 2.2370820320373546,
+          "best_training_fitness": 5.228630572557449,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 67,
+          "mean_training_fitness": 2.3720775210689076,
+          "best_training_fitness": 5.228630572557449,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 68,
+          "mean_training_fitness": 2.3142237054285792,
+          "best_training_fitness": 5.228630572557449,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 69,
+          "mean_training_fitness": 2.773433777553464,
+          "best_training_fitness": 5.228630572557449,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 70,
+          "mean_training_fitness": 2.1516566016880745,
+          "best_training_fitness": 5.2373026907444,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 71,
+          "mean_training_fitness": 2.528779597603318,
+          "best_training_fitness": 5.245645672082901,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 72,
+          "mean_training_fitness": 2.5392952409775,
+          "best_training_fitness": 5.245645672082901,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 73,
+          "mean_training_fitness": 2.799987359517521,
+          "best_training_fitness": 5.245645672082901,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 74,
+          "mean_training_fitness": 2.138081230566892,
+          "best_training_fitness": 5.245645672082901,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 75,
+          "mean_training_fitness": 2.2487016131124165,
+          "best_training_fitness": 5.245645672082901,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 76,
+          "mean_training_fitness": 2.5279376006959944,
+          "best_training_fitness": 5.24721297621727,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 77,
+          "mean_training_fitness": 2.8868284287289803,
+          "best_training_fitness": 5.251591831445694,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 78,
+          "mean_training_fitness": 2.7982793457337416,
+          "best_training_fitness": 5.251591831445694,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 79,
+          "mean_training_fitness": 2.8303428581665457,
+          "best_training_fitness": 5.251591831445694,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 80,
+          "mean_training_fitness": 3.0338213064865918,
+          "best_training_fitness": 5.251591831445694,
+          "champion_training_success": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 19,
+      "before": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_mean": 0.109375,
+      "after_mean": 0.90625,
+      "delta": 0.796875,
+      "curve": [
+        {
+          "generation": 0,
+          "mean_training_fitness": 0.2747750307277291,
+          "best_training_fitness": 0.988415598316351,
+          "champion_training_success": 0.1875
+        },
+        {
+          "generation": 1,
+          "mean_training_fitness": 0.49659873127662496,
+          "best_training_fitness": 1.3337560053914785,
+          "champion_training_success": 0.25
+        },
+        {
+          "generation": 2,
+          "mean_training_fitness": 0.6718418919480152,
+          "best_training_fitness": 2.577039171155775,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 3,
+          "mean_training_fitness": 0.8073753791414143,
+          "best_training_fitness": 2.577039171155775,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 4,
+          "mean_training_fitness": 0.8547492926793439,
+          "best_training_fitness": 2.577039171155775,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 5,
+          "mean_training_fitness": 0.9230408857178153,
+          "best_training_fitness": 2.577039171155775,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 6,
+          "mean_training_fitness": 1.1755037159090875,
+          "best_training_fitness": 2.8867338589043356,
+          "champion_training_success": 0.5625
+        },
+        {
+          "generation": 7,
+          "mean_training_fitness": 1.2115356931467527,
+          "best_training_fitness": 2.8867338589043356,
+          "champion_training_success": 0.5625
+        },
+        {
+          "generation": 8,
+          "mean_training_fitness": 1.1566418364032718,
+          "best_training_fitness": 2.8919185109552927,
+          "champion_training_success": 0.5625
+        },
+        {
+          "generation": 9,
+          "mean_training_fitness": 1.2137047236658038,
+          "best_training_fitness": 2.8919185109552927,
+          "champion_training_success": 0.5625
+        },
+        {
+          "generation": 10,
+          "mean_training_fitness": 1.4166120834220237,
+          "best_training_fitness": 3.261402194853872,
+          "champion_training_success": 0.625
+        },
+        {
+          "generation": 11,
+          "mean_training_fitness": 1.5647484143401773,
+          "best_training_fitness": 3.261402194853872,
+          "champion_training_success": 0.625
+        },
+        {
+          "generation": 12,
+          "mean_training_fitness": 1.6045271889443786,
+          "best_training_fitness": 3.261402194853872,
+          "champion_training_success": 0.625
+        },
+        {
+          "generation": 13,
+          "mean_training_fitness": 1.672981823631062,
+          "best_training_fitness": 3.261402194853872,
+          "champion_training_success": 0.625
+        },
+        {
+          "generation": 14,
+          "mean_training_fitness": 1.8054648586867188,
+          "best_training_fitness": 3.274626915808767,
+          "champion_training_success": 0.625
+        },
+        {
+          "generation": 15,
+          "mean_training_fitness": 1.758984141319606,
+          "best_training_fitness": 3.5994341668556444,
+          "champion_training_success": 0.6875
+        },
+        {
+          "generation": 16,
+          "mean_training_fitness": 2.009671442175545,
+          "best_training_fitness": 3.7941380303818733,
+          "champion_training_success": 0.75
+        },
+        {
+          "generation": 17,
+          "mean_training_fitness": 1.6814550246955757,
+          "best_training_fitness": 3.7941380303818733,
+          "champion_training_success": 0.75
+        },
+        {
+          "generation": 18,
+          "mean_training_fitness": 1.7529136184546132,
+          "best_training_fitness": 4.11133870203048,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 19,
+          "mean_training_fitness": 2.03380774828751,
+          "best_training_fitness": 4.11133870203048,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 20,
+          "mean_training_fitness": 2.1797786606163263,
+          "best_training_fitness": 4.130691895261407,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 21,
+          "mean_training_fitness": 2.3114396207397854,
+          "best_training_fitness": 4.237650627270341,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 22,
+          "mean_training_fitness": 2.3920163292872303,
+          "best_training_fitness": 4.830113961594179,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 23,
+          "mean_training_fitness": 2.3111288875800633,
+          "best_training_fitness": 4.830113961594179,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 24,
+          "mean_training_fitness": 2.469682419230651,
+          "best_training_fitness": 4.8774688029661775,
+          "champion_training_success": 0.9375
+        },
+        {
+          "generation": 25,
+          "mean_training_fitness": 2.675437743890162,
+          "best_training_fitness": 5.207412868738174,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 26,
+          "mean_training_fitness": 2.483844323092891,
+          "best_training_fitness": 5.207412868738174,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 27,
+          "mean_training_fitness": 2.4158273726881228,
+          "best_training_fitness": 5.228105992078781,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 28,
+          "mean_training_fitness": 2.770413435332889,
+          "best_training_fitness": 5.228105992078781,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 29,
+          "mean_training_fitness": 2.8873879368927646,
+          "best_training_fitness": 5.228105992078781,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 30,
+          "mean_training_fitness": 2.357779362245992,
+          "best_training_fitness": 5.228105992078781,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 31,
+          "mean_training_fitness": 2.568940621367157,
+          "best_training_fitness": 5.228105992078781,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 32,
+          "mean_training_fitness": 2.5863129182325792,
+          "best_training_fitness": 5.242134779691696,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 33,
+          "mean_training_fitness": 3.022378359897781,
+          "best_training_fitness": 5.260744005441666,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 34,
+          "mean_training_fitness": 2.920589213618996,
+          "best_training_fitness": 5.260744005441666,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 35,
+          "mean_training_fitness": 3.196367170416579,
+          "best_training_fitness": 5.260744005441666,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 36,
+          "mean_training_fitness": 2.9085836900362665,
+          "best_training_fitness": 5.260744005441666,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 37,
+          "mean_training_fitness": 3.403877554227847,
+          "best_training_fitness": 5.260744005441666,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 38,
+          "mean_training_fitness": 3.366205277590931,
+          "best_training_fitness": 5.260744005441666,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 39,
+          "mean_training_fitness": 3.1548447954649723,
+          "best_training_fitness": 5.269692808389664,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 40,
+          "mean_training_fitness": 3.086485523753557,
+          "best_training_fitness": 5.269692808389664,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 41,
+          "mean_training_fitness": 3.2408589196144626,
+          "best_training_fitness": 5.2703593373298645,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 42,
+          "mean_training_fitness": 3.2144737773608845,
+          "best_training_fitness": 5.2703593373298645,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 43,
+          "mean_training_fitness": 3.327048001311899,
+          "best_training_fitness": 5.2703593373298645,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 44,
+          "mean_training_fitness": 3.483601668220217,
+          "best_training_fitness": 5.2703593373298645,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 45,
+          "mean_training_fitness": 3.384401487336921,
+          "best_training_fitness": 5.2703593373298645,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 46,
+          "mean_training_fitness": 3.208460053782877,
+          "best_training_fitness": 5.27514374256134,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 47,
+          "mean_training_fitness": 2.853238941799191,
+          "best_training_fitness": 5.27514374256134,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 48,
+          "mean_training_fitness": 2.911511550597121,
+          "best_training_fitness": 5.27514374256134,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 49,
+          "mean_training_fitness": 3.1180001259845085,
+          "best_training_fitness": 5.27514374256134,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 50,
+          "mean_training_fitness": 3.02966436897835,
+          "best_training_fitness": 5.27514374256134,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 51,
+          "mean_training_fitness": 2.6439087665100183,
+          "best_training_fitness": 5.27514374256134,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 52,
+          "mean_training_fitness": 2.685304959475161,
+          "best_training_fitness": 5.27514374256134,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 53,
+          "mean_training_fitness": 2.7278687035348717,
+          "best_training_fitness": 5.27514374256134,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 54,
+          "mean_training_fitness": 2.6172682476832656,
+          "best_training_fitness": 5.27514374256134,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 55,
+          "mean_training_fitness": 3.2894281380786956,
+          "best_training_fitness": 5.275654435157776,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 56,
+          "mean_training_fitness": 3.3208655856404525,
+          "best_training_fitness": 5.275654435157776,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 57,
+          "mean_training_fitness": 2.981757797548956,
+          "best_training_fitness": 5.277673661708832,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 58,
+          "mean_training_fitness": 3.042029181809994,
+          "best_training_fitness": 5.277673661708832,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 59,
+          "mean_training_fitness": 2.969415616110003,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 60,
+          "mean_training_fitness": 3.1037110547343523,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 61,
+          "mean_training_fitness": 3.342664216276565,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 62,
+          "mean_training_fitness": 3.0936982421147454,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 63,
+          "mean_training_fitness": 3.1629985173470154,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 64,
+          "mean_training_fitness": 2.8600093683561076,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 65,
+          "mean_training_fitness": 2.410236260721073,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 66,
+          "mean_training_fitness": 2.671181151946257,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 67,
+          "mean_training_fitness": 2.775366999018123,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 68,
+          "mean_training_fitness": 2.914292497521991,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 69,
+          "mean_training_fitness": 3.044026602335786,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 70,
+          "mean_training_fitness": 2.8162603751516144,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 71,
+          "mean_training_fitness": 3.2123939799624472,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 72,
+          "mean_training_fitness": 3.448881629148673,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 73,
+          "mean_training_fitness": 3.356779264583262,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 74,
+          "mean_training_fitness": 3.6521951013231537,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 75,
+          "mean_training_fitness": 3.2317597894749874,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 76,
+          "mean_training_fitness": 3.2864437798989456,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 77,
+          "mean_training_fitness": 3.5781453077828096,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 78,
+          "mean_training_fitness": 3.3997258331849594,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 79,
+          "mean_training_fitness": 3.4548485707449195,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 80,
+          "mean_training_fitness": 3.0186577622974844,
+          "best_training_fitness": 5.28068944811821,
+          "champion_training_success": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "before": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_mean": 0.140625,
+      "after_mean": 0.984375,
+      "delta": 0.84375,
+      "curve": [
+        {
+          "generation": 0,
+          "mean_training_fitness": 0.32754841150536623,
+          "best_training_fitness": 1.658699930878356,
+          "champion_training_success": 0.3125
+        },
+        {
+          "generation": 1,
+          "mean_training_fitness": 0.6368774803611595,
+          "best_training_fitness": 1.9313699413323775,
+          "champion_training_success": 0.375
+        },
+        {
+          "generation": 2,
+          "mean_training_fitness": 0.8525480777255628,
+          "best_training_fitness": 1.953595380531624,
+          "champion_training_success": 0.375
+        },
+        {
+          "generation": 3,
+          "mean_training_fitness": 0.8936206193966427,
+          "best_training_fitness": 2.17557177785784,
+          "champion_training_success": 0.4375
+        },
+        {
+          "generation": 4,
+          "mean_training_fitness": 0.999971575195635,
+          "best_training_fitness": 2.3176701553165913,
+          "champion_training_success": 0.4375
+        },
+        {
+          "generation": 5,
+          "mean_training_fitness": 1.048961520179489,
+          "best_training_fitness": 2.3758787233382463,
+          "champion_training_success": 0.4375
+        },
+        {
+          "generation": 6,
+          "mean_training_fitness": 1.1790456464105243,
+          "best_training_fitness": 2.5920715777319856,
+          "champion_training_success": 0.5
+        },
+        {
+          "generation": 7,
+          "mean_training_fitness": 1.4095889126353995,
+          "best_training_fitness": 2.988514245953411,
+          "champion_training_success": 0.5625
+        },
+        {
+          "generation": 8,
+          "mean_training_fitness": 1.510680289654753,
+          "best_training_fitness": 3.2122456666547805,
+          "champion_training_success": 0.625
+        },
+        {
+          "generation": 9,
+          "mean_training_fitness": 1.4113304385988765,
+          "best_training_fitness": 3.2841409440152347,
+          "champion_training_success": 0.625
+        },
+        {
+          "generation": 10,
+          "mean_training_fitness": 1.488957838409533,
+          "best_training_fitness": 3.959751406684518,
+          "champion_training_success": 0.75
+        },
+        {
+          "generation": 11,
+          "mean_training_fitness": 1.4446671168789937,
+          "best_training_fitness": 3.959751406684518,
+          "champion_training_success": 0.75
+        },
+        {
+          "generation": 12,
+          "mean_training_fitness": 1.7745297247695788,
+          "best_training_fitness": 3.959751406684518,
+          "champion_training_success": 0.75
+        },
+        {
+          "generation": 13,
+          "mean_training_fitness": 1.8220749028119105,
+          "best_training_fitness": 3.959751406684518,
+          "champion_training_success": 0.75
+        },
+        {
+          "generation": 14,
+          "mean_training_fitness": 2.2214797272849105,
+          "best_training_fitness": 4.2349005956202745,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 15,
+          "mean_training_fitness": 2.0995728440310586,
+          "best_training_fitness": 4.2349005956202745,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 16,
+          "mean_training_fitness": 2.470702841349689,
+          "best_training_fitness": 4.268761832267046,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 17,
+          "mean_training_fitness": 2.6054093173458264,
+          "best_training_fitness": 4.268761832267046,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 18,
+          "mean_training_fitness": 2.49055940842292,
+          "best_training_fitness": 4.268761832267046,
+          "champion_training_success": 0.8125
+        },
+        {
+          "generation": 19,
+          "mean_training_fitness": 2.5982968609715726,
+          "best_training_fitness": 5.133513152599335,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 20,
+          "mean_training_fitness": 2.6746021966915428,
+          "best_training_fitness": 5.133513152599335,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 21,
+          "mean_training_fitness": 2.594588292304555,
+          "best_training_fitness": 5.133513152599335,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 22,
+          "mean_training_fitness": 2.877531411261439,
+          "best_training_fitness": 5.133513152599335,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 23,
+          "mean_training_fitness": 2.8589686543619734,
+          "best_training_fitness": 5.2280590534210205,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 24,
+          "mean_training_fitness": 2.568661055753173,
+          "best_training_fitness": 5.2280590534210205,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 25,
+          "mean_training_fitness": 2.8861797304342267,
+          "best_training_fitness": 5.236667156219482,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 26,
+          "mean_training_fitness": 2.8160770274733977,
+          "best_training_fitness": 5.238710969686508,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 27,
+          "mean_training_fitness": 3.0464525575425796,
+          "best_training_fitness": 5.238710969686508,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 28,
+          "mean_training_fitness": 3.2413668070015547,
+          "best_training_fitness": 5.238710969686508,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 29,
+          "mean_training_fitness": 3.2279340158574996,
+          "best_training_fitness": 5.249988496303558,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 30,
+          "mean_training_fitness": 3.143951566342821,
+          "best_training_fitness": 5.249988496303558,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 31,
+          "mean_training_fitness": 3.3494097975180446,
+          "best_training_fitness": 5.249988496303558,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 32,
+          "mean_training_fitness": 2.776097345398739,
+          "best_training_fitness": 5.249988496303558,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 33,
+          "mean_training_fitness": 2.9123499531434995,
+          "best_training_fitness": 5.257930129766464,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 34,
+          "mean_training_fitness": 2.971035061281327,
+          "best_training_fitness": 5.257930129766464,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 35,
+          "mean_training_fitness": 3.3255754378042184,
+          "best_training_fitness": 5.263150900602341,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 36,
+          "mean_training_fitness": 3.2450960159392253,
+          "best_training_fitness": 5.263150900602341,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 37,
+          "mean_training_fitness": 2.6370065928532918,
+          "best_training_fitness": 5.263150900602341,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 38,
+          "mean_training_fitness": 2.9074714728727336,
+          "best_training_fitness": 5.263150900602341,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 39,
+          "mean_training_fitness": 3.3653553285802977,
+          "best_training_fitness": 5.266958802938461,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 40,
+          "mean_training_fitness": 3.29430244568069,
+          "best_training_fitness": 5.266958802938461,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 41,
+          "mean_training_fitness": 3.3007352945167745,
+          "best_training_fitness": 5.266958802938461,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 42,
+          "mean_training_fitness": 3.467989523360302,
+          "best_training_fitness": 5.266958802938461,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 43,
+          "mean_training_fitness": 3.270145631984633,
+          "best_training_fitness": 5.270935654640198,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 44,
+          "mean_training_fitness": 3.1630665373800184,
+          "best_training_fitness": 5.270935654640198,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 45,
+          "mean_training_fitness": 3.5602119486884476,
+          "best_training_fitness": 5.270935654640198,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 46,
+          "mean_training_fitness": 3.0694968764708697,
+          "best_training_fitness": 5.270935654640198,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 47,
+          "mean_training_fitness": 3.6131517543158225,
+          "best_training_fitness": 5.271347463130951,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 48,
+          "mean_training_fitness": 3.7433705556904897,
+          "best_training_fitness": 5.271425306797028,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 49,
+          "mean_training_fitness": 3.583610564161669,
+          "best_training_fitness": 5.271425306797028,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 50,
+          "mean_training_fitness": 3.164206482225078,
+          "best_training_fitness": 5.275538623332977,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 51,
+          "mean_training_fitness": 3.5220849570217374,
+          "best_training_fitness": 5.275538623332977,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 52,
+          "mean_training_fitness": 3.756701697181294,
+          "best_training_fitness": 5.27742463350296,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 53,
+          "mean_training_fitness": 3.7143093093100865,
+          "best_training_fitness": 5.27742463350296,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 54,
+          "mean_training_fitness": 3.7745609350110194,
+          "best_training_fitness": 5.27742463350296,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 55,
+          "mean_training_fitness": 4.338879515595484,
+          "best_training_fitness": 5.280409514904022,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 56,
+          "mean_training_fitness": 3.4779546968047725,
+          "best_training_fitness": 5.280409514904022,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 57,
+          "mean_training_fitness": 4.349244843680803,
+          "best_training_fitness": 5.280409514904022,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 58,
+          "mean_training_fitness": 4.053620504814717,
+          "best_training_fitness": 5.282392203807831,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 59,
+          "mean_training_fitness": 3.8189835371149456,
+          "best_training_fitness": 5.282392203807831,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 60,
+          "mean_training_fitness": 4.064710363186805,
+          "best_training_fitness": 5.282392203807831,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 61,
+          "mean_training_fitness": 4.108002082971022,
+          "best_training_fitness": 5.282392203807831,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 62,
+          "mean_training_fitness": 3.4710427347417863,
+          "best_training_fitness": 5.282392203807831,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 63,
+          "mean_training_fitness": 3.700190103659376,
+          "best_training_fitness": 5.282392203807831,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 64,
+          "mean_training_fitness": 3.6883276181154847,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 65,
+          "mean_training_fitness": 3.600521342051252,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 66,
+          "mean_training_fitness": 3.368383182718844,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 67,
+          "mean_training_fitness": 4.024949167842048,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 68,
+          "mean_training_fitness": 4.05791758963566,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 69,
+          "mean_training_fitness": 3.7056316959466735,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 70,
+          "mean_training_fitness": 3.721143466017869,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 71,
+          "mean_training_fitness": 3.8911914265936502,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 72,
+          "mean_training_fitness": 3.8883433851042355,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 73,
+          "mean_training_fitness": 3.747370661359431,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 74,
+          "mean_training_fitness": 3.6994201355488863,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 75,
+          "mean_training_fitness": 4.307557978537564,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 76,
+          "mean_training_fitness": 4.15279693523856,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 77,
+          "mean_training_fitness": 4.12799657080124,
+          "best_training_fitness": 5.2833074033260345,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 78,
+          "mean_training_fitness": 3.7026361659529052,
+          "best_training_fitness": 5.283862948417664,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 79,
+          "mean_training_fitness": 3.5737324781475763,
+          "best_training_fitness": 5.283862948417664,
+          "champion_training_success": 1.0
+        },
+        {
+          "generation": 80,
+          "mean_training_fitness": 3.8751302218186843,
+          "best_training_fitness": 5.283862948417664,
+          "champion_training_success": 1.0
+        }
+      ]
+    }
+  ],
+  "fitness": "5 \u00d7 food acquired + (initial distance \u2212 final distance) / 350",
+  "conditions": "240\u00d7240 world, 1 prey, 1 food, no predators/obstacles, 360\u00b0 FOV, range 350",
+  "mean_delta": 0.765625,
+  "std_delta": 0.09757809372497497,
+  "seconds": 50.11401608301094,
+  "limitations": [
+    "Three evolution seeds; descriptive, not a significance claim.",
+    "Distance shaping is evaluation-only; policy sees ordinary local sensors.",
+    "Target acquisition is simpler than sustained foraging or coevolution.",
+    "All held-out placements are excluded from selection."
+  ]
+}

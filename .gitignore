@@ -1,0 +1,12 @@
+target/
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+experiments/data/
+.DS_Store
+*.log
+artifacts/screenshots/

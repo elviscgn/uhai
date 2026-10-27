@@ -1,0 +1,5 @@
+{"agents":120,"initial_agent_steps_per_second":537787.339869058,"seconds":0.133881917,"steps":600,"steps_per_second":4481.561165575483,"survivors":64}
+{"agents":500,"initial_agent_steps_per_second":1389350.1274024805,"seconds":0.215928292,"steps":600,"steps_per_second":2778.700254804961,"survivors":125}
+{"agents":1000,"initial_agent_steps_per_second":1343386.5937755848,"seconds":0.446632416,"steps":600,"steps_per_second":1343.386593775585,"survivors":214}
+{"forwards_per_second":4030903.648382985}
+{"candidates_per_query":63,"queries_per_second":25446911.381131116}

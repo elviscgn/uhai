@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Uhai · Phase 1 rendering benchmark</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #f8f6ee;
+        color: #223d31;
+        font: 13px sans-serif;
+      }
+      header {
+        height: 85px;
+        display: flex;
+        align-items: center;
+        padding: 15px 25px;
+        gap: 24px;
+        border-bottom: 1px solid #d9ddd0;
+      }
+      h1 {
+        font-size: 17px;
+        font-weight: 500;
+        margin: 0;
+      }
+      header p {
+        font-size: 11px;
+        color: #6c786b;
+        margin: 6px 0 0;
+      }
+      button {
+        background: #2d4d37;
+        color: #fff;
+        border: 0;
+        border-radius: 3px;
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+      button:disabled {
+        opacity: 0.5;
+      }
+      header > span {
+        margin-left: auto;
+        max-width: 330px;
+        font-size: 12px;
+      }
+      #stage {
+        height: calc(100vh - 85px);
+        min-height: 480px;
+        position: relative;
+        overflow: hidden;
+        background: #e9ece0;
+      }
+      #host {
+        position: absolute;
+        inset: 0;
+      }
+      canvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      #population {
+        position: absolute;
+        left: 24px;
+        top: 24px;
+        background: #f8f6eef0;
+        padding: 15px;
+        border: 1px solid #dce1d1;
+        line-height: 1.8;
+      }
+      #episode {
+        position: absolute;
+        right: 325px;
+        top: 24px;
+        font-size: 10px;
+        color: #758764;
+      }
+      #inspector {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 290px;
+        padding: 24px;
+        background: #f8f6ee;
+        border-left: 1px solid #d9ddd0;
+      }
+      #inspector h2 {
+        font-size: 17px;
+        font-weight: 500;
+      }
+      #inspector p {
+        font-size: 12px;
+        line-height: 1.8;
+      }
+      #controls {
+        position: absolute;
+        bottom: 24px;
+        right: 320px;
+        padding: 12px;
+        background: #f8f6eef0;
+        border: 1px solid #dce1d1;
+        font-size: 11px;
+      }
+      #metric {
+        position: absolute;
+        left: 24px;
+        bottom: 24px;
+        font-size: 11px;
+        color: #687b5b;
+      }
+      #result {
+        position: absolute;
+        right: 12px;
+        bottom: 12px;
+        width: 266px;
+        max-height: 42%;
+        overflow: auto;
+        font-size: 9px;
+        white-space: pre-wrap;
+        line-height: 1.5;
+      }
+      #inspector svg {
+        width: 242px;
+        height: 180px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Internal rendering test · not the Observatory</h1>
+        <p>
+          Real Rust episode · 100 initial neural agents · existing artwork · all current overlays
+        </p>
+      </div>
+      <button id="start" disabled>Loading episode…</button><a href="/">Return to Uhai Observatory</a
+      ><span id="status">Preparing cached sprites</span>
+    </header>
+    <div id="stage" class="observatory-frame">
+      <div id="host"></div>
+      <div id="population" data-world-ui>
+        Predators <strong>20</strong><br />Prey <strong>80</strong><br />Food <strong>240</strong>
+      </div>
+      <div id="episode" data-world-ui>RECORDED NEURAL FOUNDERS · SEED 2718</div>
+      <aside id="inspector" data-world-ui>
+        <h2>Predator 000</h2>
+        <p id="vitals">Actual recorded neural state</p>
+        <p>24 → 16 → 16 → 2</p>
+        <svg id="brain" viewBox="0 0 242 180" aria-label="Recorded neural activations"></svg>
+        <p>
+          Trails: all organisms<br />Vision cone and sensory rays: selected organism<br />UI
+          exclusion masks: enabled
+        </p>
+        <pre id="result" data-testid="benchmark-result"></pre>
+      </aside>
+      <div id="controls" data-world-ui>Playback 1× · Trails on · Sensors on · Inspector open</div>
+      <div id="metric" data-world-ui>Waiting for animation frames</div>
+    </div>
+    <script type="module" src="./phase1.ts"></script>
+  </body>
+</html>
