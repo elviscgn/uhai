@@ -1,27 +1,37 @@
-# Uhai
+<div align="center">
 
-A local artificial life laboratory built with Vue, Canvas 2D rendering, FastAPI, Python neuroevolution,
-and a deterministic Rust simulation core.
+# UHAI
 
-The Observatory uses the supplied Uhai artwork, locally bundled Michroma display and Chakra Petch interface typography,
-and a full-height habitat. The existing fish artwork is pre-rendered into four animation frames
-per species. Positions are interpolated, headings eased, and left-facing sprites mirrored
-to keep their bellies down. Paths come from the neural engine.
+**Artificial life laboratory**
 
-## Run locally
+*Watch life find its own way.*
 
-Requirements: Rust stable, Python 3.12, uv, and Node 22.12 or newer.
-On Apple Silicon, ensure Homebrew's current Node is ahead of an older `/usr/local/bin/node`
-on your PATH (`export PATH="/opt/homebrew/bin:$PATH"`).
+</div>
 
-From the repository root:
+![The Uhai Observatory, showing a recorded predator–prey ecosystem](docs/images/observatory.png)
+
+<div align="center">
+
+Observe neural organisms move, compete, and evolve in a shared habitat.
+
+*Uhai* means life in Kiswahili.
+
+</div>
+
+---
+
+## Start exploring
+
+You'll need **Rust stable**, **Python 3.12**, **uv**, and **Node 22.12 or newer**.
+
+Start the simulation server from the project root:
 
 ```sh
 uv sync --python 3.12
 uv run uvicorn apps.server.api.main:app --host 127.0.0.1 --port 8000
 ```
 
-In another terminal:
+In a second terminal, start the interface:
 
 ```sh
 cd apps/web
@@ -29,50 +39,53 @@ npm ci
 npm run dev
 ```
 
-Open **http://127.0.0.1:5173**. The frontend proxies the local API and WebSocket connection.
-The first experiment starts from random neural genomes. Playback and training have separate controls.
+Open **http://127.0.0.1:5173**. On Apple Silicon, if an older Node version is being picked up, run `export PATH="/opt/homebrew/bin:$PATH"` first.
 
-After changing Rust sources, rebuild the extension with `uv sync --reinstall-package uhai`.
+## Explore
 
-## Controls
+**Observatory** is the habitat. Click a fish to inspect it, drag to pan, and scroll to zoom. Use the playback controls to pause, seek, change speed, or loop the episode. Playback starts at 2× and runs independently of training.
 
-- Click an organism to inspect its recorded neural state.
-- Drag to pan; scroll or use the camera controls to zoom.
-- Fit habitat resets the view to fill the screen. Zoom and panning stay inside the habitat.
-- Space pauses playback. The timeline seeks within an episode.
-- Playback starts at 2×; visible 1×, 2×, 4×, and 8× controls change observation speed independently of training.
-- Loop repeats the same recorded episode. It does not advance the evolutionary generation.
-- Evolution → Watch founders / Watch latest opens a recorded episode in the Observatory.
-  Marked generations on the captures and survival charts also open their corresponding replays.
-- Selection scores and research comparisons are expandable details below those charts.
-- Follow, perception, and trails are available for inspection.
-- Start/pause training controls the background process independently of playback.
+**Evolution** shows captures and survival across generations. Choose **Watch founders**, **Watch latest**, or a marked generation on a chart to open its episode in the Observatory. Selection scores and research comparisons are available below the charts.
 
-## Checks
+**Experiments** lets you configure runs. Training happens in a separate process, so you can watch a recording while it runs.
+
+---
+
+## Under the surface
+
+Each organism is controlled by a small neural network with local sensory inputs and continuous movement outputs. Predator and prey populations evolve separately through selection, mutation, and repeated evaluations. Experiments use explicit seeds and save checkpoints for later replay and comparison.
+
+The current release is an early research instrument. It does not establish sophisticated hunting or cooperation. Networks have a fixed topology, training uses one process, and sensory occlusion and behavioural classifiers are not yet implemented.
+
+- [Architecture and execution plan](docs/architecture.md)
+- [Observatory rendering results](docs/rendering-phase1.md)
+- [Controlled learning measurements](docs/learning-results.json)
+
+Experiment data lives in `experiments/data/` and is excluded from Git.
+
+---
+
+## Development
+
+After changing Rust code, rebuild the Python extension:
+
+```sh
+uv sync --reinstall-package uhai
+```
+
+Run the checks from the project root:
 
 ```sh
 cargo test
 cargo clippy --all-targets -- -D warnings
 uv run pytest -q
 uv run ruff check apps scripts tests
+```
+
+For the frontend:
+
+```sh
 cd apps/web
 npm test
 npm run build
 ```
-
-## Status
-
-The engine, batch Python boundary, evolutionary populations, checkpoints, local process
-orchestration, recorded playback, and initial research views are implemented.
-The UI is undergoing review before further simulation work.
-
-Observatory Phase 1 results and reproduction steps: [docs/rendering-phase1.md](docs/rendering-phase1.md).
-Phases 2 and 3 remain gated on review. Development is focused on desktop use.
-
-This is an initial working slice. It does not establish sophisticated predator–prey behaviour
-or cooperation. Fixed neural topology, single-process training, no sensory occlusion, no
-behavioural classifiers, and no automatic episode curation are deliberate current limits.
-
-Architecture and execution notes: [docs/architecture.md](docs/architecture.md).
-Controlled learning experiments and raw results live under `scripts/` and `docs/`.
-Local experiment data is stored in `experiments/data/` and excluded from Git.
